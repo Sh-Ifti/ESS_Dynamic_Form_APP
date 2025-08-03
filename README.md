@@ -1,16 +1,20 @@
-# dynamic_form_app
+# Dynamic Forms Flutter App
 
-A new Flutter project.
+This app allows to dynamically render and submit JSON-based forms with multiple field types.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+-> Dynamically parses  forms from JSON
 
-A few resources to get you started if this is your first Flutter project:
+-> Renders Multiple filed types:
+    - Text fields
+    - Drop-down
+    - Checkboxes
+    - Yes/No/NA radio buttons
+    - Image placeholder
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+-> Validates inputs
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+-> Shows a summary before submission
+
+-> Saves responses to local storage
